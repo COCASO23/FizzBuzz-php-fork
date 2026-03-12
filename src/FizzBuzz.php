@@ -4,9 +4,9 @@ namespace Deg540\CleanCodeKata9;
 
 class FizzBuzz
 {
-    function handler(int $value):string
+    function handler(int $number):string
     {
-        if ($value === 2)
+        if ($number === 2)
         {
             return '2';
         }
