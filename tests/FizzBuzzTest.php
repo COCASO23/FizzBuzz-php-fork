@@ -12,17 +12,6 @@ final class FizzBuzzTest extends TestCase
     /**
      * @test
      */
-    public function getHelloWorld()
-    {
-        $FizzBuzz = new FizzBuzz();
-
-        $result = $FizzBuzz->handler(1);
-
-        $this->assertEquals("Hello, World!", $result);
-    }
-    /**
-     * @test
-     */
     public function givenNumberOneReturnsNumberOne()
     {
         $FizzBuzz = new FizzBuzz();
