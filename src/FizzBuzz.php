@@ -6,6 +6,6 @@ class FizzBuzz
 {
     function handler(int $value):string
     {
-        return "Hello, World!";
+        return "1";
     }
 }
