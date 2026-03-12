@@ -12,35 +12,14 @@ final class FizzBuzzTest extends TestCase
     /**
      * @test
      */
-    public function givenNumberOneReturnsNumberOne()
+    public function givenANumberReturnsNumberThatNumber()
     {
         $FizzBuzz = new FizzBuzz();
+        $number = 1;
 
-        $result = $FizzBuzz->handler(1);
+        $result = $FizzBuzz->handler($number);
 
-        $this->assertEquals("1", $result);
-    }
-    /**
-     * @test
-     */
-    public function givenNumberTwoReturnsNumberTwo()
-    {
-        $FizzBuzz = new FizzBuzz();
-
-        $result = $FizzBuzz->handler(2);
-
-        $this->assertEquals("2", $result);
-    }
-    /**
-     * @test
-     */
-    public function givenNumberThreeReturnsNumberThree()
-    {
-        $FizzBuzz = new FizzBuzz();
-
-        $result = $FizzBuzz->handler(3);
-
-        $this->assertEquals("3", $result);
+        $this->assertEquals($number, $result);
     }
 }
 
