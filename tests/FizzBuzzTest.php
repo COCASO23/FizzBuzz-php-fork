@@ -1,8 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Deg540\CleanCodeKata9\Test;
 
-class FizzBuzzTest
+use Deg540\CleanCodeKata9\Example;
+use PHPUnit\Framework\TestCase;
+
+final class ExampleTest extends TestCase
 {
     /**
      * @test
@@ -16,3 +21,12 @@ class FizzBuzzTest
         $this->assertEquals("Hello, World!", $result);
     }
 }
+
+
+
+
+
+
+
+
+
