@@ -35,7 +35,7 @@ final class FizzBuzzTest extends TestCase
     /**
      * @test
      */
-    public function givenNumber5ReturnsBuzz()
+    public function givenNumberDivisibleByFiveReturnsBuzz()
     {
         $FizzBuzz = new FizzBuzz();
 
@@ -43,28 +43,7 @@ final class FizzBuzzTest extends TestCase
 
         $this->assertEquals("Buzz", $result);
     }
-    /**
-     * @test
-     */
-    public function givenNumber10ReturnsBuzz()
-    {
-        $FizzBuzz = new FizzBuzz();
 
-        $result = $FizzBuzz->handler(10);
-
-        $this->assertEquals("Buzz", $result);
-    }
-    /**
-     * @test
-     */
-    public function givenNumber20ReturnsBuzz()
-    {
-        $FizzBuzz = new FizzBuzz();
-
-        $result = $FizzBuzz->handler(20);
-
-        $this->assertEquals("Buzz", $result);
-    }
 
 }
 

@@ -10,7 +10,7 @@ class FizzBuzz
         {
             return "Fizz";
         }
-        if($number === 5 or $number === 10 or $number === 20)
+        if($number % 5 === 0)
         {
             return "Buzz";
         }
