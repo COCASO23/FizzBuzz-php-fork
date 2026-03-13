@@ -14,7 +14,7 @@ class FizzBuzz
         }
         if(str_contains((string) $number,"3") and str_contains((string) $number,"5"))
         {
-            return "FizzBuzz";
+            return "FizzBuzz"; 
         }
         if(str_contains((string) $number,"5"))
         {
