@@ -2,11 +2,13 @@
 
 namespace Deg540\CleanCodeKata9;
 
+use function PHPUnit\Framework\stringContains;
+
 class FizzBuzz
 {
     function calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(int $number):string
     {
-        if($number === 13 or $number === 23 or $number === 43)
+        if(str_contains((string) $number,"3"))
         {
             return "Fizz";
         }
