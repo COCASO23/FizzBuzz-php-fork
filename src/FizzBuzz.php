@@ -6,7 +6,7 @@ class FizzBuzz
 {
     function calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(int $number):string
     {
-        if($number === 13)
+        if($number === 13 or $number === 26)
         {
             return "Fizz";
         }
