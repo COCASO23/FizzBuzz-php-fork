@@ -17,7 +17,7 @@ final class FizzBuzzTest extends TestCase
         $FizzBuzz = new FizzBuzz();
         $number = 1;
 
-        $result = $FizzBuzz->handler($number);
+        $result = $FizzBuzz->calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz($number);
 
         $this->assertEquals($number, $result);
     }
@@ -28,7 +28,7 @@ final class FizzBuzzTest extends TestCase
     {
         $FizzBuzz = new FizzBuzz();
 
-        $result = $FizzBuzz->handler(3);
+        $result = $FizzBuzz->calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(3);
 
         $this->assertEquals("Fizz", $result);
     }
@@ -39,7 +39,7 @@ final class FizzBuzzTest extends TestCase
     {
         $FizzBuzz = new FizzBuzz();
 
-        $result = $FizzBuzz->handler(5);
+        $result = $FizzBuzz->calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(5);
 
         $this->assertEquals("Buzz", $result);
     }
@@ -50,11 +50,10 @@ final class FizzBuzzTest extends TestCase
     {
         $FizzBuzz = new FizzBuzz();
 
-        $result = $FizzBuzz->handler(15);
+        $result = $FizzBuzz->calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(15);
 
         $this->assertEquals("FizzBuzz", $result);
     }
-
 }
 
 
