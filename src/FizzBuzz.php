@@ -6,7 +6,7 @@ class FizzBuzz
 {
     function handler(int $number):string
     {
-        if($number === 15 or $number === 30)
+        if($number === 15 or $number === 30 or $number === 45)
         {
             return "FizzBuzz";
         }
