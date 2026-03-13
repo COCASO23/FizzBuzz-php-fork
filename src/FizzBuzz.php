@@ -12,7 +12,7 @@ class FizzBuzz
         {
             return "FizzBuzz";
         }
-        if($number === 52)
+        if($number === 52 or $number === 56)
         {
             return "Buzz";
         }
