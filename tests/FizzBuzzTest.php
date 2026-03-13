@@ -65,7 +65,17 @@ final class FizzBuzzTest extends TestCase
 
         $this->assertEquals("FizzBuzz", $result);
     }
-    
+    /**
+     * @test
+     */
+    public function givenNumberFortyFiveReturnsFizzBuzz()
+    {
+        $FizzBuzz = new FizzBuzz();
+
+        $result = $FizzBuzz->handler(45);
+
+        $this->assertEquals("FizzBuzz", $result);
+    }
 }
 
 
