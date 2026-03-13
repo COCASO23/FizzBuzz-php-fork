@@ -54,7 +54,6 @@ final class FizzBuzzTest extends TestCase
 
         $this->assertEquals("FizzBuzz", $result);
     }
-
 }
 
 
