@@ -68,7 +68,7 @@ final class FizzBuzzTest extends TestCase
     /**
      * @test
      */
-    public function givenNumber51ReturnsBuzz()
+    public function givenNumber52ReturnsBuzz()
     {
         $FizzBuzz = new FizzBuzz();
 

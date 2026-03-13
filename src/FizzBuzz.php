@@ -8,6 +8,10 @@ class FizzBuzz
 {
     function calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(int $number):string
     {
+        if(($number % 3 === 0) and ($number % 5 === 0))
+        {
+            return "FizzBuzz";
+        }
         if($number === 52)
         {
             return "Buzz";
@@ -15,10 +19,6 @@ class FizzBuzz
         if(str_contains((string) $number,"3"))
         {
             return "Fizz";
-        }
-        if(($number % 3 === 0) and ($number % 5 === 0))
-        {
-            return "FizzBuzz";
         }
         if($number % 3 === 0)
         {
