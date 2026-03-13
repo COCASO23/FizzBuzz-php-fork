@@ -72,7 +72,7 @@ final class FizzBuzzTest extends TestCase
     {
         $FizzBuzz = new FizzBuzz();
 
-        $result = $FizzBuzz->calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(26);
+        $result = $FizzBuzz->calculateIfNumberIsNumberIsFizzIsBuzzOrIsFizzBuzz(23);
 
         $this->assertEquals("Fizz", $result);
     }
