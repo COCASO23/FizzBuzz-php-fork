@@ -12,7 +12,7 @@ class FizzBuzz
         {
             return "FizzBuzz";
         }
-        if($number === 52 or $number === 56 or $number === 59)
+        if(str_contains((string) $number,"5"))
         {
             return "Buzz";
         }
