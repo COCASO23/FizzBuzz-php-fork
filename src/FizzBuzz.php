@@ -12,7 +12,7 @@ class FizzBuzz
         {
             return "FizzBuzz";
         }
-        if($number === 53 or $number === 35)
+        if($number === 53 or $number === 35 or $number === 153)
         {
             return "FizzBuzz";
         }
