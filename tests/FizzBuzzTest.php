@@ -14,5 +14,5 @@ class FizzBuzzTest
         $result = $FizzBuzz->handler(1);
 
         $this->assertEquals("Hello, World!", $result);
-    }
+    }  
 }
